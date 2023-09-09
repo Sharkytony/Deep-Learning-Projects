@@ -2,7 +2,8 @@
 <h2>Author: Anthony Rodrigues</h2>
 
 <b><pre>
-I have divided The Project into Four Parts :    1)Data Collection - Web Scraping 
+I have divided The Project into Four Parts :   
+                                                1)Data Collection - Web Scraping 
                                                 2)Image Augmentation  
                                                 3)Model Building, Training and Evaluating
                                                 4)Model Testing and Pipeline Building
