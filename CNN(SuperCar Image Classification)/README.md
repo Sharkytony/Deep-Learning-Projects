@@ -6,16 +6,20 @@ I have divided The Project into Four Parts :    1)Data Collection - Web Scraping
                                                 2)Image Augmentation  
                                                 3)Model Building, Training and Evaluating
                                                 4)Model Testing and Pipeline Building
-</b>
+</b></pre>
 
-[I have also created a Web using Flask which lets user upload an image from his local and my model predicts the image which I will upload later on after adding additional features to it .]
+[I have also created a Web using Flask which lets user upload an image from his local and my model predicts the image which
+I will upload later on after adding additional features to it .]
 
 Diving into The Project 
 
-<h3>1)Data Collection - Web Scraping (<a href="https://github.com/Sharkytony/Deep-Learning-Projects/blob/main/CNN(SuperCar%20Image%20Classification)/Image_Classifier_Webscraper.ipynb" target="_blank">Image_Classifier_Webscraper.ipynb</a>)</h3>
-The Begin with We have web scraping where I scrape two websites Both containing names of Few Top SuperCar selling Brands across the World . Searched for the Same Car Brands on a popular website selling SuperCars
-with the filter only Search in UAE (for further use in web), and Scraped those too. Now I use random function to randomly pick two cars of each brand as classes for the Image Classification along with the 
-Car model Year. and store the data in CSV file <a href="https://github.com/Sharkytony/Deep-Learning-Projects/blob/main/CNN(SuperCar%20Image%20Classification)/filtered_cars_data.csv" target="_blank">"filtered_cars_data.csv"</a>. Again imported the csv and Downloaded 20 images of each Car_model in the data using pygoogle_image library which searches on google and downloads images which appear on the Images section.
+<h3>1)Data Collection - Web Scraping (<a href="https://github.com/Sharkytony/Deep-Learning-                                  Projects/blob/main/CNN(SuperCar%20Image%20Classification)/Image_Classifier_Webscraper.ipynb" target="_blank">Image_Classifier_Webscraper.ipynb</a>)</h3>
+The Begin with We have web scraping where I scrape two websites Both containing names of Few Top SuperCar selling Brands
+across the World . Searched for the Same Car Brands on a popular website selling SuperCars
+with the filter only Search in UAE (for further use in web), and Scraped those too. Now I use random function to randomly
+pick two cars of each brand as classes for the Image Classification along with the 
+Car model Year. and store the data in CSV file <a href="https://github.com/Sharkytony/Deep-Learning-Projects/blob/main/CNN(SuperCar%20Image%20Classification)/filtered_cars_data.csv" target="_blank">"filtered_cars_data.csv"
+</a>. Again imported the csv and Downloaded 20 images of each Car_model in the data using pygoogle_image library which searches on google and downloads images which appear on the Images section.
 
 
 <h3>2)Image Augmentation (<a href="https://github.com/Sharkytony/Deep-Learning-Projects/blob/main/CNN(SuperCar%20Image%20Classification)/Image_Classifier_Preprocessor.ipynb" target="_blank"> Image_Classifier_Preprocessor.ipynb</a>)</h3>
